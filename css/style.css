@@ -16,12 +16,12 @@ nav{
 	display:inline;
 }
 .navbar-brand img {
-	height: 100px;
+	height: 50px;
 	float:left;
 
 }
-.navbar-brand h5{
-	padding-top: 25px;
+.navbar-brand h6{
+	padding-top: 12.5px;
 }
 
 
@@ -165,7 +165,7 @@ video{
 	border: none;border-bottom:2px dotted gray
 }
 footer span{
-	font-size: 3px;
+	font-size: 5px;
 }
 footer{
 		text-align: center;

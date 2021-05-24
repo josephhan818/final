@@ -57,14 +57,13 @@ border-style: dotted;
 	text-align: right;
 	padding:10px;
 }
-.read img{
-	display:inline;
-}
 
 .read h5{
 	display:inline;
 	font-weight: bold;
 	font-style:italic;
+	text-align: center;
+	line-height:30px;
 }
 
 .title {

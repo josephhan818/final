@@ -39,23 +39,13 @@ nav{
 .banner .container-fluid {
 	padding:0!important;
 }
-.story1{
-border-style: dotted;
-　border-top:5px black solid;　/*上方邊框寬度設為 5px，顏色為黑色*/
-　border-right:8px red double;　/*右邊的邊框寬度設為 8px，顏色為紅色，樣式為 double*/
-　border-left:7px yellow dotted;　/*左邊的邊框寬度設為 7px，顏色為黃色，樣式為 dotted*/
-　border-bottom:3px blue dashed;　/*下方邊框寬度設為 3px，顏色為藍色，樣式為 dashed*/
-}
-.story1 p{
-	padding: 20px;
-}
 .about {
 	padding:100px 0px 0px 0px;
 	background:#ffffff; 
 }
 .read{
 	text-align: right;
-	padding:10px;
+	padding:10px 10px 0px 10px;
 }
 
 .read h5{
@@ -156,8 +146,8 @@ video{
 　border-bottom:3px blue dashed;　//下方邊框寬度設為 3px，顏色為藍色，樣式為 dashed
 　padding-bottom:30px;
 }
-.story2 p{
-	padding: 20px
+.story2{
+	padding: 10px;
 }
 .about2 {
 	padding-bottom: 100px

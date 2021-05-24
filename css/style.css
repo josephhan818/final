@@ -22,6 +22,7 @@ nav{
 }
 .navbar-brand h6{
 	padding-top: 12.5px;
+	font-weight: bold;
 }
 
 
@@ -63,6 +64,7 @@ border-style: dotted;
 .read h5{
 	display:inline;
 	font-weight: bold;
+	font-style:italic;
 }
 
 .title {

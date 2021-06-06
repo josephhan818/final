@@ -10,7 +10,7 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 }
 
 p {
-	font-size: 16px;
+	font-size: 20px;
 }
 nav{
 	display:inline;
@@ -20,7 +20,7 @@ nav{
 	float:left;
 
 }
-.navbar-brand h6{
+.navbar-brand h4{
 	padding-top: 12.5px;
 	font-weight: bold;
 }
@@ -40,7 +40,7 @@ nav{
 	padding:0!important;
 }
 .about {
-	padding:100px 0px 0px 0px;
+	padding:100px 80px 0px 80px;
 	background:#ffffff; 
 }
 .read{
@@ -63,18 +63,6 @@ nav{
 	margin:30px;
 }
 
-.story {
-	padding: 50px 0;
-	font-size: 18px;
-}
-
-.story span {
-	font-style: italic;
-	font-size: 20px;
-	display: block;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
 
 
 .test{
@@ -91,10 +79,7 @@ nav{
 	margin:100px 50px;
 }
 
-.test h5{
-	text-align:center;
-	color:black;
-}
+
 .swiper-container {
         width: 100%;
         padding-top: 50px;
@@ -115,19 +100,24 @@ nav{
         display: block;
         width: 100%;
       }
-.product {
+.story {
 	background-color: #ffffff;
 	padding-bottom:70px;
 	text-align: center;
 	padding: 50px;
+	text-align:center;
+	color:black;
+}
+.story p{
+	font-size: 15px;
 }
 .product .card {
 	background-color: #ffffff;
 	padding: 20px 10px;
 	margin-bottom: 10px;
 }
-.product img {
-	width:90%;
+.story img {
+	width:100%;
 	margin-bottom:20px;
 }
 
@@ -137,10 +127,7 @@ nav{
 .product_name {
 	padding: 10px;
 }
-.set{
-	padding: 20px;
-	color: black;
-}
+
 video{
 	width:1000px;
 }
@@ -149,6 +136,7 @@ video{
 }
 .story2{
 	border-style: dotted;
+	border-color: gray;
 　border-top:5px black solid;　//上方邊框寬度設為 5px，顏色為黑色
 　border-right:8px red double;　//右邊的邊框寬度設為 8px，顏色為紅色，樣式為 double
 　border-left:7px yellow dotted;　//左邊的邊框寬度設為 7px，顏色為黃色，樣式為 dotted
@@ -156,14 +144,83 @@ video{
 　padding-bottom:30px;
 }
 .story2{
-	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 30px;
 }
-.about2 {
-	padding-bottom: 100px
+.story {
+	padding: 0px;
+
+	font-size: 15px;
 }
+
+.story span {
+	font-size: 30px;
+	display: block;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
 .line{
 	border: none;border-bottom:2px dotted gray
 }
+/*這是聯絡我們*/
+.form{
+  border-style: solid;
+　border-top:5px;
+　border-right:8px;
+　border-left:7px ;　
+　border-bottom:3px;
+  border-color: #adb5bd;
+  padding: 10px;
+}
+.title3{
+	color: #D95644;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+/*這是框內文字*/
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width:1px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.form textarea {
+	height: 300px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width:1px;
+	padding: 12px;
+	font-size: 20px;
+}
+
+/*這是傳送*/
+.send{
+	text-align: right;
+	padding:10px;
+	border-color:#adb5bd;
+}
+
+.send span{
+	display:inline;
+	font-weight: bold;
+	font-size: 25px;
+}
+
 footer span{
 	font-size: 10px;
 }

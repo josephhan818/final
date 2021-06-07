@@ -1,0 +1,90 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p{
+	font-family: PingFangTC-Light, sans-serif;
+}
+div,span {
+	font-family: PingFangTC-Light, sans-serif,Microsoft JhengHei;	
+}
+h3{
+	font-family: PingFangTC-Semibold, sans-serif;
+}
+
+nav{
+	display:inline;
+}
+.navbar-brand img {
+	height: 50px;
+	float:left;
+
+}
+.navbar-brand h5{
+	padding-top: 12.5px;
+	font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.main{
+	margin-right: 80px;
+	margin-left: 80px;
+}
+.main img{
+
+	padding-right: 30px;
+	width:100%;
+	margin-bottom: 15px;
+
+}
+.title1{
+	margin-top: 130px;
+	margin-bottom: 50px;
+	color: #F4715B;
+	text-align: center;
+	font-family: PingFangTC-Semibold,sans-serif;
+	font-size:50px;
+}
+.row{
+	display: inline-block;
+	justify-content:center;
+	padding-bottom: 40px;
+}
+.read{
+	text-align: right;
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-size: 28px;
+	color:#000000;
+}
+
+.line{
+		padding-top: 50px;
+	border: none;border-bottom:2px dotted gray
+}
+footer span{
+
+	font-size: 10px;
+}
+footer{
+		text-align: center;
+		margin-bottom: 20px;
+}
+
